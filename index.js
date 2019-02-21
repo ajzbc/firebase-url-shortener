@@ -1,10 +1,10 @@
 //  firebase-url-shortener  -   https://github.com/ajzbc/firebase-url-shortner
 //  created by @ajzbc       -   https://ajzbc.com
 
-let projectID = "fire-url" //replace with your project id
-let collection = "list" // replace with the firestore collection you want to use
+let projectID = "fire-url"; //replace with your project id
+let collection = "list"; // replace with the firestore collection you want to use
 var local = window.location.href; //shortened url used when displaying shortened url
-var hashLength = 5 //length of random hash
+var hashLength = 5; //length of random hash
 
 var api = "https://firestore.googleapis.com/v1beta1/projects/"+projectID+"/databases/(default)/documents/"+collection;
 
