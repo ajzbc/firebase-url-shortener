@@ -1,4 +1,4 @@
-//  firebase-url-shortener  -   https://github.com/ajzbc/firebase-url-shortner
+//  firebase-url-shortener  -   https://github.com/ajzbc/firebase-url-shortener
 //  created by @ajzbc       -   https://ajzbc.com
 
 let projectID = "fire-url"; //replace with your project id
